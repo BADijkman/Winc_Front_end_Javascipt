@@ -15,7 +15,7 @@ if (isFemale){
         console.log("Deze persoon is geen vrouw.")
 }
 
-if (driverStatus == "bob"){
+if (driverStatus === "bob"){
     console.log("Deze persoon heeft de status van bob en mag rijden.")
     }
     else{

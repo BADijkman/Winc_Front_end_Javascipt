@@ -94,12 +94,9 @@ let person = {
   console.log("ennergy level eerste kattenras:",
   catBreeds[0].energy_level);
   console.log("Eerste temperament tweede kattenras:",catBreeds[1].temperament[0]); 
-  
   console.log("Laatst temperament derder kattenras:",
   catBreeds[2].temperament[4]);
   // of
   console.log("Laatst temperament derder kattenras:",catBreeds[2].temperament[(catBreeds[2].temperament.length-1)]);
-  
-  
   console.log("favo voedsel derde kat:",catBreeds[2].food.favourite_food);
   

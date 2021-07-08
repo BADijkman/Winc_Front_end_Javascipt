@@ -6,8 +6,9 @@ let person = {
     evaluations :[7,20,9]
   }
   
-  //dot-notation
+  
   console.log(person);
+  //dot-notation
   console.log(person.name);
   console.log(person.age);
   console.log (person.evaluations);

@@ -43,8 +43,8 @@ function calculate( number1, number2){
   
   
   //shorter
-  let calculate5 = (number1, number2) =>
-    ((number1 * number1) + (number2 * number2)) * ((number1 * number1) + (number2 * number2));
+  let calculate5 = (number1, number2) =>  ((number1 * number1) + (number2 * number2)) * ((number1 * number1) + (number2 * number2));
+   
   
   console.log(calculate5(2,4));
   console.log("-------------");
